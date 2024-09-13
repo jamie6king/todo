@@ -21,7 +21,7 @@
     div {
         padding: 32px 0 16px 0;
         display: grid;
-        grid-template-columns: 1fr min-content;
+        grid-template-columns: 1fr min-content min-content;
         border-bottom: 2px solid $mid;
 
         &:first-child {

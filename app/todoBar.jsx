@@ -11,8 +11,6 @@ export default function TodoBar({ list, add }) {
 
         const todoObj = { id: shortUUID.generate(), todo: todo, checked: false }
 
-        // alert(JSON.stringify(todoObj))
-
         add([ ...list, todoObj ])
         setTodo("")
     }
