@@ -5,7 +5,7 @@ import TodoBar from "./todoBar";
 import TodoList from "./todoList";
 import styles from "./styles.module.scss"
 import Image from "next/image"
-import wallpaper from "./public/wallpaper.jpg"
+import wallpaper from "../public/wallpaper.jpg"
 
 export default function RootPage() {
 
