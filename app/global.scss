@@ -6,6 +6,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
     font-size: 14pt;
+
+    &::selection {
+        background-color: $accent;
+        color: $dark;
+    }
 }
 
 body {
