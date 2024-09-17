@@ -1,5 +1,7 @@
 module.exports = {
 
+    output: "standalone",
+
     compiler: {
 
         // Remove non-error console messages in production
