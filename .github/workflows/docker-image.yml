@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Publish Docker Build
 
 on:
   push:
@@ -15,4 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag todo:$(date +%s)
+      run: |
+             COMMIT_SHA=$(echo $GITHUB_SHA | cut -c1-7)
+             docker build --file Dockerfile --tag todo:${COMMIT_SHA} .
+             docker push ghcr.io/jamie6king/todo:${COMMIT_SHA}
