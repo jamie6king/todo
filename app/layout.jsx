@@ -1,4 +1,5 @@
 import "./global.scss"
+import Head from 'next/head';
 
 export const metadata = {
 
@@ -25,10 +26,10 @@ export default function RootLayout({ children }) {
     return (
 
         <html lang="en">
-            <head>
+            <Head>
                 <title>Todo</title>
                 <link rel="icon" href="/favicon.ico" sizes="any" />
-            </head>
+            </Head>
             <body>
                 { children }
             </body>
