@@ -288,9 +288,9 @@ busboy@1.6.0:
     streamsearch "^1.1.0"
 
 caniuse-lite@^1.0.30001579:
-  version "1.0.30001692"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001692.tgz#4585729d95e6b95be5b439da6ab55250cd125bf9"
-  integrity sha512-A95VKan0kdtrsnMubMKxEKUKImOPSuCpYgxSQBo036P5YYgVIcOYJEgt/txJWqObiRQeISNCfef9nvlQ0vbV7A==
+  version "1.0.30001717"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001717.tgz#5d9fec5ce09796a1893013825510678928aca129"
+  integrity sha512-auPpttCq6BDEG8ZAuHJIplGw6GODhjw+/11e7IjpnYCxZcW/ONgPs0KVBJ0d1bY3e2+7PRe5RCLyP+PfwVgkYw==
 
 chokidar@^4.0.0:
   version "4.0.3"
